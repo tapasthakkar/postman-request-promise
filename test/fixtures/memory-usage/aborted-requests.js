@@ -5,7 +5,7 @@
 var _ = require('lodash');
 var Bluebird = require('bluebird');
 var rp = require('../../../');
-// var rp = require('request');
+// var rp = require('postman-request');
 
 
 var requests = [];
