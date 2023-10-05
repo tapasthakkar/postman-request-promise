@@ -1,32 +1,7 @@
-<a href="http://promisesaplus.com/">
-    <img src="https://promises-aplus.github.io/promises-spec/assets/logo-small.png" align="right" alt="Promises/A+ logo" />
-</a>
+# Postman-Request-Promise
 
-# Request-Promise
-
-[![Gitter](https://img.shields.io/badge/gitter-join_chat-blue.svg?style=flat-square&maxAge=2592000)](https://gitter.im/request/request-promise?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://img.shields.io/travis/request/request-promise/master.svg?style=flat-square&maxAge=2592000)](https://travis-ci.org/request/request-promise)
-[![Coverage Status](https://img.shields.io/coveralls/request/request-promise.svg?style=flat-square&maxAge=2592000)](https://coveralls.io/r/request/request-promise)
-[![Dependency Status](https://img.shields.io/david/request/request-promise.svg?style=flat-square&maxAge=2592000)](https://david-dm.org/request/request-promise)
-[![Known Vulnerabilities](https://snyk.io/test/npm/request-promise/badge.svg?style=flat-square&maxAge=2592000)](https://snyk.io/test/npm/request-promise)
-
-# Deprecated!
-
-As of Feb 11th 2020, [`request`](https://github.com/request/request) is fully deprecated. No new changes are expected to land. In fact, none have landed for some time. This package is also deprecated because it depends on `request`.
-
-Fyi, here is the [reasoning of `request`'s deprecation](https://github.com/request/request/issues/3142) and a [list of alternative libraries](https://github.com/request/request/issues/3143).
-
----
-
-The simplified HTTP request client 'request' with Promise support. Powered by Bluebird.
-
-[Request](https://github.com/request/request) and [Bluebird](https://github.com/petkaantonov/bluebird) are pretty awesome, but I found myself using the same design pattern. Request-Promise adds a Bluebird-powered `.then(...)` method to Request call objects. By default, http response codes other than 2xx will cause the promise to be rejected. This can be overwritten by setting `options.simple = false`.
-
-Also check out the new libraries that are **very similar to `request-promise` v4**:
-- [`request-promise-native`](https://github.com/request/request-promise-native) v1 &ndash; Does not depend on Bluebird and uses native ES6 promises instead.
-- [`request-promise-any`](https://github.com/request/request-promise-any) v1 &ndash; Allows you to register any Promise library supported by [`any-promise`](https://www.npmjs.com/package/any-promise).
-
----
+## Migration from v4 to v5
+1. Moved to `postman-request` (`npm install --save postman-request`)
 
 ## Migration from v3 to v4
 
